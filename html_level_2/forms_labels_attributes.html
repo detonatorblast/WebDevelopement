@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Attributes</title>
+  </head>
+  <body>
+
+    <form action="https://www.google.com" method="get">
+
+      <!-- not a recomended way to use labels individually -->
+      <label>Enter Some text:
+        <input type="text" name="userinput" placeholder="default1">
+        <input type="submit" name="" value="submit">
+      </label>
+
+      <!-- recomended way to use labels with Id -->
+      <label for="mapID">Enter mapID:</label>
+      <input id="mapID" type="text" name="mapID" placeholder="default map id" required>
+      <input type="submit" name="" value="process">
+
+
+    </form>
+
+  </body>
+</html>

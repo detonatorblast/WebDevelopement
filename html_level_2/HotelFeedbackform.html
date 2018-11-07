@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Feedback Form</title>
+  </head>
+  <body>
+    <form method="get">
+      <h1>Hotel Feeback Form</h1>
+
+      <h2>Are you satisfied with the service?</h2>
+
+      <label for="notsatisfied">no</label>
+      <input id="notsatisfied" type="radio" name="service" value="no">
+
+      <label for="satisfied">yes</label>
+      <input id="satisfied" type="radio" name="service" value="yes">
+
+      <h2>Please rate us.. </h2>
+      <label for="rating">Please rate our service:</label>
+      <select id="rating "name="rating">
+        <option value=1>bad</option>
+        <option value=2>ok</option>
+        <option value=3>good</option>
+      </select>
+
+      <h2>Any other comments ?</h2>
+      <textarea name="usercoments" rows="8" cols="80"></textarea>
+
+      <input type="submit" name="" value="submit">
+
+    </form>
+
+  </body>
+</html>
