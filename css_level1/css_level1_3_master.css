@@ -1,0 +1,30 @@
+h3{
+  color: black;
+  border: 2px black dotted
+}
+
+.firstDiv{
+  color: blue;
+}
+
+.secondDiv{
+  color: red;
+}
+
+#seperate{
+  color: purple;
+  text-decoration: line-through;
+}
+
+h3 + ul{
+  color: green;
+}
+
+li a{
+  color: red;
+}
+
+li a[href="www.google.com"]{
+  color: yellow;
+  border: 1px green solid
+}

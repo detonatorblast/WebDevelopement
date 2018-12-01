@@ -1,0 +1,28 @@
+/*
+selected tag{
+ property: value;
+}*/
+
+
+body{
+  /* background-color: grey; */
+  background: url("Desert.jpg");
+  background-repeat: no-repeat;
+}
+
+div{
+  background-color: skyblue;
+  border-color: black;
+  border-width: 2px;
+  border-style: dotted;
+}
+
+p{
+  color: yellow;
+  /* background-color: blue; */
+}
+
+span{
+  color: red;
+  background: black;
+}
